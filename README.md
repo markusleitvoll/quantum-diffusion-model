@@ -38,3 +38,23 @@ Here is the master theisis:
 [Quantum_Diffusion_Model.pdf](/Quantum_Diffusion_Model.pdf)
 
 We hope this work contributes to advancing the research field of quantum computing combined with machine learning. Feel free to use our implementation, but please remember to provide proper attribution.
+
+## How to run
+
+Install python (the packages under does not support all python version, I can confirm it works on Python 3.9.12)
+<br>
+Install torch
+<br>
+Install torchvision
+<br>
+Install scipy
+<br>
+Install pennylane
+<br>
+Install qw_map
+<br>
+Install tqdm
+
+Run by typing: `python .\main.py`
+
+In `main.py` you can tweak the training data, embeddings, and hyperparameters used.

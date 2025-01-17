@@ -32,7 +32,7 @@ class PQC(torch.nn.Module):
         self.dataset = dataset
         self.hyperparams = hyperparams
         self.wires = dataset.num_wires() + embeds.num_ancilla()
-        self.device = qml.device("default.qubit.torch", wires=self.wires)
+        self.device = qml.device("default.qubit", wires=self.wires)
         
         # Initialize the weights of the quantum circuit
         weights_shape = qml.StronglyEntanglingLayers.shape(
